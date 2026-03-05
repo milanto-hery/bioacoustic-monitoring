@@ -3,10 +3,10 @@ layout: page
 title: Architecture
 parent: Home
 nav_order: 1
-permalink: /architecture/
+permalink: /docs/architecture/
 ---
 
-<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
+<a href="../../">← Back to Dashboard</a>
 
 ---
 
@@ -37,7 +37,7 @@ graph TD
 ---
 
 <br>
-<a href="{{ site.baseurl }}/acquisition/">➡️ Next: Data Acquisition</a>
+<a href="../acquisition/">➡️ Next: Data Acquisition</a>
 
 ---
 <div align="center">

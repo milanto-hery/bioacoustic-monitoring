@@ -3,10 +3,10 @@ layout: page
 title: Expert Labeling
 parent: Home
 nav_order: 3
-permalink: /labeling/
+permalink: /docs/labeling/
 ---
 
-<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
+<a href="../../">← Back to Dashboard</a>
 
 ---
 
@@ -51,7 +51,7 @@ Why `.svl` over simple `.csv`? The Sonic Visualiser XML (`.svl`) inherently main
 ---
 
 <br>
-<a href="{{ site.baseurl }}/pipeline/">➡️ Next: Preprocessing & Training Pipeline</a>
+<a href="../pipeline/">➡️ Next: Preprocessing & Training Pipeline</a>
 
 ---
 <div align="center">

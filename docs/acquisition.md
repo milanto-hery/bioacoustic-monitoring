@@ -3,10 +3,10 @@ layout: page
 title: Data Acquisition
 parent: Home
 nav_order: 2
-permalink: /acquisition/
+permalink: /docs/acquisition/
 ---
 
-<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
+<a href="../../">← Back to Dashboard</a>
 
 ---
 
@@ -49,7 +49,7 @@ The edge node possesses limited onboard storage, making an automated offloading 
 ---
 
 <br>
-<a href="{{ site.baseurl }}/labeling/">➡️ Next: Expert Labeling</a>
+<a href="../labeling/">➡️ Next: Expert Labeling</a>
 
 ---
 <div align="center">
