@@ -6,7 +6,7 @@ nav_order: 2
 permalink: /acquisition/
 ---
 
-<a href="/">← Back to Dashboard</a>
+<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
 
 ---
 
@@ -49,7 +49,7 @@ The edge node possesses limited onboard storage, making an automated offloading 
 ---
 
 <br>
-<a href="labeling.html">➡️ Next: Expert Labeling</a>
+<a href="{{ site.baseurl }}/labeling/">➡️ Next: Expert Labeling</a>
 
 ---
 <div align="center">

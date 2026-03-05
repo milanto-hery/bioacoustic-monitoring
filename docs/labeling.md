@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /labeling/
 ---
 
-<a href="/">← Back to Dashboard</a>
+<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
 
 ---
 
@@ -51,7 +51,7 @@ Why `.svl` over simple `.csv`? The Sonic Visualiser XML (`.svl`) inherently main
 ---
 
 <br>
-<a href="pipeline.html">➡️ Next: Preprocessing & Training Pipeline</a>
+<a href="{{ site.baseurl }}/pipeline/">➡️ Next: Preprocessing & Training Pipeline</a>
 
 ---
 <div align="center">
