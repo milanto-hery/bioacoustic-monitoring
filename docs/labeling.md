@@ -32,13 +32,13 @@ A strict labeling protocol must be maintained across all global annotators. Here
 
 Standard point timestamps are insufficient for robust model training. We require explicit bounding boxes.
 
-1. **Initialize layer:** Navigate to `Layer > Add New Time-Value Layer` to unlock the necessary annotation geometry.
+**Initialize layer:** Navigate to `Layer > Add New Time-Value Layer` to unlock the necessary annotation geometry.
 
 ### Step 3: Precise time-frequency boxing
 
 This is the core of the labeling showcase. Analysts must encompass the entire acoustic signal without capturing excessive background noise, as that would dilute the target feature space during mel-spectrogram generation.
 
-1. **Execute annotations:** Click and drag to draw boxes mapping the exact *frequency boundaries* (Y-axis) and *time durations* (X-axis) of the target acoustic events. Be sure to label both positive calls and distinct hard-negative background noises when instructed.
+**Execute annotations:** Click and drag to draw boxes mapping the exact *frequency boundaries* (Y-axis) and *time durations* (X-axis) of the target acoustic events. Be sure to label both positive calls and distinct hard-negative background noises when instructed.
 
 ![Frequency-time boxes]({{ site.baseurl }}/assets/labelling-boxes.png)
 
@@ -46,12 +46,12 @@ This is the core of the labeling showcase. Analysts must encompass the entire ac
 
 Why `.svl` over simple `.csv`? The sonic visualiser xml (`.svl`) inherently maintains the complex structural relationship of our 2d region layers, avoiding the data flattening and parsing errors associated with standard csv conversions.
 
-1. **Finalize export:** Export the annotation layer as an `.svl` file. It is a critical strict requirement that the `.svl` filename matches the source audio `.wav` file exactly.
+**Finalize export:** Export the annotation layer as an `.svl` file. It is a critical strict requirement that the `.svl` filename matches the source audio `.wav` file exactly.
 
 ---
 
 <br>
-<a href="{{ site.baseurl }}/docs/pipeline/">➡️ class="next-link">Next: Preprocessing & training pipeline</a>
+ <a href="{{ site.baseurl }}/docs/pipeline/" class="next-link">➡️ Next: Preprocessing & training pipeline</a>Next: Preprocessing & training pipeline</a>
 
 ---
 <div align="center">

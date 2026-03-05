@@ -50,7 +50,7 @@ The implementation supports advanced optimization techniques such as adam optimi
 ---
 
 <br>
-<a href="{{ site.baseurl }}/">↖️ Return to dashboard</a>
+ ↖️ Return to dashboard</a>
 
 ---
 <div align="center">

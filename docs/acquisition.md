@@ -49,7 +49,7 @@ The edge node possesses limited onboard storage, making an automated offloading 
 ---
 
 <br>
-<a href="{{ site.baseurl }}/docs/labeling/">➡️ class="next-link">Next: Expert labeling</a>
+ <a href="{{ site.baseurl }}/docs/labeling/" class="next-link">➡️ Next: Expert labeling</a>Next: Expert labeling</a>
 
 ---
 <div align="center">

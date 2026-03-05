@@ -15,7 +15,7 @@ permalink: /docs/architecture/
 The overarching system architecture dictates the flow of raw acoustic signals from edge hardware, through resilient remote storage, and ultimately into the advanced neural network framework.
 
 <div class="mermaid">
-graph LR
+graph TD
     classDef hardware fill:#ffad66,stroke:#e67e22,stroke-width:2px,color:#000
     classDef data fill:#66b3ff,stroke:#2980b9,stroke-width:2px,color:#000
     classDef ai fill:#85e085,stroke:#27ae60,stroke-width:2px,color:#000
