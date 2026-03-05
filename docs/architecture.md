@@ -14,7 +14,7 @@ permalink: /docs/architecture/
 
 The overarching system architecture dictates the flow of raw acoustic signals from edge hardware, through resilient remote storage, and ultimately into the advanced Neural Network framework.
 
-```mermaid
+<div class="mermaid">
 graph TD
     classDef hardware fill:#ffad66,stroke:#e67e22,stroke-width:2px,color:#000
     classDef data fill:#66b3ff,stroke:#2980b9,stroke-width:2px,color:#000
@@ -26,11 +26,11 @@ graph TD
     D -->|.svl XML Annotations| E[Data Preprocessing]:::ai
     E -->|Mel-Spectrogram Generation| F[Neural Net Pipeline]:::ai
     F -->|Inference & Detect| G((Acoustic Events)):::ai
-```
+</div>
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
 </script>
 
 ### Flow Breakdown
