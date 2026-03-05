@@ -6,7 +6,7 @@ nav_order: 1
 permalink: /docs/architecture/
 ---
 
-<a href="../../">← Back to Dashboard</a>
+<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
 
 ---
 
@@ -28,6 +28,11 @@ graph TD
     F -->|Inference & Detect| G((Acoustic Events)):::ai
 ```
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
 ### Flow Breakdown
 
 1. **Hardware Tier (Orange):** Represents the robust, remote data collection. The Raspberry Pi system is programmed to constantly ingest acoustics without human intervention.
@@ -37,7 +42,7 @@ graph TD
 ---
 
 <br>
-<a href="../acquisition/">➡️ Next: Data Acquisition</a>
+<a href="{{ site.baseurl }}/docs/acquisition/">➡️ Next: Data Acquisition</a>
 
 ---
 <div align="center">

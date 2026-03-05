@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /docs/labeling/
 ---
 
-<a href="../../">← Back to Dashboard</a>
+<a href="{{ site.baseurl }}/">← Back to Dashboard</a>
 
 ---
 
@@ -26,7 +26,7 @@ A strict labeling protocol must be maintained across all global annotators. Here
 2. **Add Spectrogram:** Navigate to `Pane > Add Spectrogram` or execute `Shift + G`. 
 3. **Configure FFT Constants:** Customize the settings (color scale, window size) to emphasize the target frequency ranges of the specific fauna. We standardize on a Window size of `1024` or `2048` and an overlap of `50%` for optimal temporal and frequency resolution.
 
-> *[Screenshot Placeholder: Spectrogram Settings]*
+![Spectrogram Settings]({{ site.baseurl }}/assets/spectrogram-setup.png)
 
 ### Step 2: Region Layer Creation
 
@@ -40,7 +40,7 @@ This is the core of the labeling showcase. Analysts must encompass the entire ac
 
 1. **Execute Annotations:** Click and drag to draw boxes mapping the exact *frequency boundaries* (Y-axis) and *time durations* (X-axis) of the target acoustic events. Be sure to label both positive calls and distinct hard-negative background noises when instructed.
 
-> *[Screenshot Placeholder: Frequency-Time Boxes]*
+![Frequency-Time Boxes]({{ site.baseurl }}/assets/labelling-boxes.png)
 
 ### Step 4: SVL Export 
 
@@ -51,7 +51,7 @@ Why `.svl` over simple `.csv`? The Sonic Visualiser XML (`.svl`) inherently main
 ---
 
 <br>
-<a href="../pipeline/">➡️ Next: Preprocessing & Training Pipeline</a>
+<a href="{{ site.baseurl }}/docs/pipeline/">➡️ Next: Preprocessing & Training Pipeline</a>
 
 ---
 <div align="center">
