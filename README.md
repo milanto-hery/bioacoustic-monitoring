@@ -28,12 +28,10 @@
 
 ```mermaid
 graph TD
-    %% Define Styles
-    classDef hardware fill:#ff9933,stroke:#cc6600,stroke-width:2px,color:#fff
-    classDef data fill:#3399ff,stroke:#0066cc,stroke-width:2px,color:#fff
-    classDef ai fill:#33cc33,stroke:#009900,stroke-width:2px,color:#fff
+    classDef hardware fill:#ffad66,stroke:#e67e22,stroke-width:2px,color:#000
+    classDef data fill:#66b3ff,stroke:#2980b9,stroke-width:2px,color:#000
+    classDef ai fill:#85e085,stroke:#27ae60,stroke-width:2px,color:#000
 
-    %% Nodes
     A[Raspberry Pi Mic]:::hardware -->|Cron Job 10s Recording| B(Local Storage):::hardware
     B -->|rclone Sync| C[(Google Drive)]:::data
     C -->|Fetch Data| D[Sonic Visualiser Labeling]:::data
@@ -44,7 +42,7 @@ graph TD
 
 ---
 
-## 🗂 Framework Structure
+## 🗂️ Framework Structure
 
 <details>
   <summary><b>🛠 Technical Hardware Specs (Raspberry Pi Setup)</b></summary>
