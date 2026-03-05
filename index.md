@@ -36,7 +36,7 @@ The bioacoustic monitoring framework was built to streamline the complex process
   </a>
 
   <a href="{{ site.baseurl }}/docs/pipeline/" class="dash-card">
-    <h3>🧠 3. Preprocessing & training</h3>
+    <h3>🧠 3. Preprocess & training</h3>
     <p>How `.svl` xml is parsed and converted directly into machine-ingestible mel-spectrogram features.</p>
   </a>
 
