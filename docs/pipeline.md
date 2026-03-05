@@ -6,7 +6,7 @@ nav_order: 4
 permalink: /docs/pipeline/
 ---
 
-<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard</a>
+<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
 
 ---
 
@@ -50,7 +50,8 @@ The implementation supports advanced optimization techniques such as adam optimi
 ---
 
 <br>
- ↖️ Return to dashboard</a>
+<a href="{{ site.baseurl }}/docs/labeling/" class="back-link">← Previous</a>
+<a href="{{ site.baseurl }}/" class="next-link">Finish</a>
 
 ---
 <div align="center">

@@ -12,7 +12,6 @@ url: "https://milanto-hery.github.io"
 # Mba hivoaka ny menu (miankina amin'ny theme)
 header_pages:
   - index.md
-  - docs/architecture.md
   - docs/acquisition.md
   - docs/labeling.md
   - docs/pipeline.md
