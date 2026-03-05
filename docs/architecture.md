@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Architecture
 parent: Home
 nav_order: 1

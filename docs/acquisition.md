@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Data Acquisition
 parent: Home
 nav_order: 2

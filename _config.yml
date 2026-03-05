@@ -1,7 +1,7 @@
 # Settings ho an'ny Website
 title: Bioacoustic Monitoring Framework
 description: An end-to-end ecosystem from Edge to AI.
-theme: jekyll-theme-cayman # Azonao ovaina ho: jekyll-theme-architect na jekyll-theme-cayman
+theme: jekyll-theme-minimal # Azonao ovaina ho: jekyll-theme-architect na jekyll-theme-cayman
 
 # IZAY TENA ZAVA-DEHIBE:
 # Ny baseurl dia tsy maintsy mitovy amin'ny anaran'ny repo-nao ao amin'ny GitHub

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Preprocessing & Training
 parent: Home
 nav_order: 4

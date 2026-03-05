@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Expert Labeling
 parent: Home
 nav_order: 3
