@@ -51,7 +51,7 @@ The implementation supports advanced optimization techniques such as adam optimi
 
 <br>
 <a href="{{ site.baseurl }}/docs/labeling/" class="back-link">← Previous</a>
-<a href="{{ site.baseurl }}/" class="next-link">Finish</a>
+<a href="{{ site.baseurl }}/" class="next-link">Back to dashboard</a>
 
 ---
 <div align="center">

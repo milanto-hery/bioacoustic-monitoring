@@ -15,26 +15,6 @@ title: Bioacoustic Monitoring Framework
 
 ---
 
-## 🏗️ System architecture
-
-The overarching system architecture dictates the flow of raw acoustic signals from edge hardware, through resilient remote storage, and ultimately into the advanced neural network framework.
-
-<div class="mermaid">
-graph LR
-    classDef hardware fill:#ffad66,stroke:#e67e22,stroke-width:2px,color:#000
-    classDef data fill:#66b3ff,stroke:#2980b9,stroke-width:2px,color:#000
-    classDef ai fill:#85e085,stroke:#27ae60,stroke-width:2px,color:#000
-
-    A[Raspberry pi mic]:::hardware -->|Cron job 10s recording| B(Local storage):::hardware
-    B -->|rclone sync| C[(Google drive)]:::data
-    C -->|Fetch data| D[Sonic visualiser labeling]:::data
-    D -->|.svl xml annotations| E[Data preprocessing]:::ai
-    E -->|Mel-spectrogram generation| F[Neural net pipeline]:::ai
-    F -->|Inference & detect| G((Acoustic events)):::ai
-</div>
-
----
-
 ## 👁️ System vision
 
 The bioacoustic monitoring framework was built to streamline the complex processes spanning from rugged hardware deployment at the edge, precision manual labeling by bioacoustic experts, to advanced machine learning preprocessing utilizing temporal-frequency localization arrays.
