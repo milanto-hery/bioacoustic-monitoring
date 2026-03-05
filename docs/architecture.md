@@ -3,9 +3,10 @@ layout: page
 title: Architecture
 parent: Home
 nav_order: 1
+permalink: /architecture/
 ---
 
-<a href="../index.html">← Back to Dashboard</a>
+<a href="/">← Back to Dashboard</a>
 
 ---
 

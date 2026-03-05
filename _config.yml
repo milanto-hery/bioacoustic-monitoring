@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: Bioacoustic Monitoring Framework
 description: A High-End Interactive Documentation Hub for End-to-End Bioacoustic Analysis
+include: [docs]

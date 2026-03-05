@@ -3,9 +3,10 @@ layout: page
 title: Expert Labeling
 parent: Home
 nav_order: 3
+permalink: /labeling/
 ---
 
-<a href="../index.html">← Back to Dashboard</a>
+<a href="/">← Back to Dashboard</a>
 
 ---
 

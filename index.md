@@ -30,22 +30,22 @@ This documentation serves as a central hub, cleanly separating the intricate eng
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: space-between;">
 
-  <a href="docs/architecture.html" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+  <a href="/architecture/" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
     <h3>🏗️ 1. Architecture</h3>
     <p>High-Level Mermaid Diagram explaining the interaction between Hardware, Data, and AI pipelines.</p>
   </a>
 
-  <a href="docs/acquisition.html" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+  <a href="/acquisition/" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
     <h3>📡 2. Data Acquisition</h3>
     <p>Details on Edge recording protocols, 10s Cron logic, and resilient Cloud syncing strategies.</p>
   </a>
 
-  <a href="docs/labeling.html" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+  <a href="/labeling/" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
     <h3>🎧 3. Expert Labeling</h3>
     <p>The core methodology using Sonic Visualiser for sub-second, multi-frequency bounding boxes.</p>
   </a>
 
-  <a href="docs/pipeline.html" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+  <a href="/pipeline/" style="text-decoration: none; color: inherit; flex: 1 1 45%; border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
     <h3>🧠 4. Preprocessing & Training</h3>
     <p>How `.svl` XML is parsed and converted directly into machine-ingestible Mel-Spectrogram features.</p>
   </a>
