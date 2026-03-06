@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /docs/labeling/
 ---
 
-<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
+#<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
 
 ---
 
