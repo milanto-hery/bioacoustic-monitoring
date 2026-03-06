@@ -5,6 +5,7 @@ title: Bioacoustic Monitoring Framework
 
 <div align="center">
   <h1>🎙️ Bioacoustic monitoring framework</h1>
+  ---
   <p><i>A high-end interactive documentation hub for end-to-end bioacoustic analysis</i></p>
 
   <!-- Badges in one line -->
