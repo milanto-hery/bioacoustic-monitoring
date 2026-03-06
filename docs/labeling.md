@@ -6,11 +6,10 @@ nav_order: 3
 permalink: /docs/labeling/
 ---
 
-#<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
-
 ---
 
 # 🎧 Expert labeling (the showcase)
+---
 
 The integrity of any supervised machine learning architecture inherently relies on the absolute precision of its ground truth data. A structured approach to annotating the bioacoustic data is crucial for training a high-performance computer vision / ai model to parse spectrograms. 
 
