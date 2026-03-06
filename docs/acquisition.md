@@ -4,11 +4,9 @@ title: Data Acquisition
 parent: Home
 nav_order: 2
 permalink: /docs/acquisition/
----
 
-<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
+<!-- <a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard -->
 
----
 
 # 📡 Data acquisition
 
