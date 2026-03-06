@@ -5,6 +5,8 @@ parent: Home
 nav_order: 2
 permalink: /docs/acquisition/
 
+---
+
 
 # 📡 Data acquisition
 
