@@ -4,13 +4,11 @@ title: Preprocessing & Training
 parent: Home
 nav_order: 4
 permalink: /docs/pipeline/
----
-
-<a href="{{ site.baseurl }}/" class="back-link">← Back to dashboard
 
 ---
 
 # 🧠 Preprocessing & training matrix
+---
 
 The fundamental innovation of the bioacoustic monitoring framework's ai pipeline lies in its ability to directly ingest complex xml structures. 
 
